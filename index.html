@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Firebase auth practice</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Firebase Authentication Practice</h1>
+    </div>
+    <div class="container">
+      <div class="login-page hidden">
+        <h1>Login</h1>
+        <form class="form-signin">
+          <h2 class="form-signin-heading">Please sign in</h2>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+    <div class="main-page hidden">
+      <h1>Welcome ________</h1>
+      <form class="form-signin">
+        <label for="inputTodo" class="sr-only">Todo</label>
+        <input type="Todo" id="inputTodo" class="form-control" placeholder="Todo">
+        <button class="Add Todo btn btn-lg btn-primary btn-block">Add Todo</button>
+        <button class="logout btn btn-lg btn-primary btn-block">Logout</button>
+      </form>
+      <ul class="todolist"></ul>
+    </div>
+    <div class="register-page hidden">
+
+    </div>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "firebase--auth-practice",
+  "homepage": "https://github.com/pgarrido57/firebase--auth-practice",
+  "authors": [
+    "Peter Garrido <peter.garrido57@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "firebase": "^3.6.5"
+  }
+}
